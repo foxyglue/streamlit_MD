@@ -16,7 +16,7 @@ def main():
     
     if st.button('Make Prediction'):
         features = [sepal_length,sepal_width,patal_length,patal_width]
-        result = make_prediction(features)
+        result = make_prediction(features) 
         st.success(f'The prediction is: {result}')
 
 def make_prediction(features):
